@@ -4,7 +4,7 @@ const Redis = require("ioredis");
 const mysql = require('mysql');
 const nconf = require('nconf');
 
-const cnf = nconf.argv().env().file({ file: path.resolve(__dirname + '/config.json') });
+const cnf = nconf.argv().env().file({ file: path.resolve(__dirname + '/../config.json') });
 const app = express();
 const client = new Redis(cnf.get('resources:redis'));
 
