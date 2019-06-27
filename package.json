@@ -1,0 +1,17 @@
+{
+  "name": "campaign-info-lookup",
+  "version": "1.0.0",
+  "description": "Service used to retrieve campaign info from Redis/Mysql using a qooqie number",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Horsman",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "2.2.0",
+    "express": "^4.16.2",
+    "mysql": "2.9.0",
+    "nconf": "^0.10.0"
+  }
+}
